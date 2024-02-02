@@ -7,7 +7,7 @@ import RootLayout from "./_root/RootLayout"
 function App() {
 
   return (
-    <main className="flex h-screen bg-slate-700">
+    <main className="flex h-screen ">
       <Routes>
         <Route element={<AuthLayout />}>
           <Route path="/login" element={<SigninForm />} />
